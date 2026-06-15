@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarangayConnect Mobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="mobile-style.css">
+</head>
+<body>
+
+    <div class="mobile-frame">
+        
+        <header class="app-header">
+            <div class="logo-section">
+                <i class="fa-solid fa-cubes app-logo-icon"></i>
+                <span class="app-logo-text">BarangayConnect</span>
+            </div>
+            <div class="notification-bell">
+                <i class="fa-regular fa-bell"></i>
+                <span class="orange-dot"></span>
+            </div>
+        </header>
+
+        <main class="app-body">
+            
+            <div class="welcome-section">
+                <h1 class="welcome-title">Welcome, Resident!</h1>
+                <p class="welcome-subtitle">Community management platform.</p>
+            </div>
+
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" class="search-input" readonly>
+            </div>
+
+            <section class="quick-actions-grid">
+                <div class="action-card">
+                    <i class="fa-solid fa-triangle-exclamation action-icon"></i>
+                    <span>Report an issue</span>
+                </div>
+                <div class="action-card">
+                    <i class="fa-solid fa-file-invoice action-icon"></i>
+                    <span>Request Document</span>
+                </div>
+                <div class="action-card">
+                    <i class="fa-solid fa-bullhorn action-icon"></i>
+                    <span>View Announcements</span>
+                </div>
+            </section>
+
+            <section class="updates-section">
+                <h2 class="section-heading">Latest Updates</h2>
+                <div class="updates-row">
+                    <div class="update-card">
+                        <div class="update-header">
+                            <h3>Water Interruption</h3>
+                            <i class="fa-solid fa-bell bell-indicator"></i>
+                        </div>
+                        <p>Water interruption is becoming a lot recently because of whats happening....</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                    <div class="update-card">
+                        <div class="update-header">
+                            <h3>Health Mission</h3>
+                            <i class="fa-solid fa-square-plus plus-indicator"></i>
+                        </div>
+                        <p>Upcoming health mission on some places in Cebu...</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="status-tracking-section">
+                
+                <div class="status-row-item">
+                    <div class="row-left">
+                        <div class="status-icon-box">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <div class="row-details">
+                            <h4>Incident Reports</h4>
+                            <span class="sub-detail">Clogged status</span>
+                            <div class="progress-bar-container">
+                                <div class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                </div>
+
+                <div class="status-row-item">
+                    <div class="row-left">
+                        <div class="status-icon-box">
+                            <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+                        <div class="row-details">
+                            <h4>Document Requests</h4>
+                            <span class="sub-detail pickup">Ready for Pickup</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                </div>
+
+            </section>
+
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="#" class="nav-tab active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-tab">
+                <i class="fa-regular fa-bell"></i>
+                <span>Alerts</span>
+            </a>
+            <a href="#" class="nav-tab">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span>Report</span>
+            </a>
+            <a href="#" class="nav-tab">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>Documents</span>
+            </a>
+            <a href="#" class="nav-tab">
+                <i class="fa-regular fa-user"></i>
+                <span>Profile</span>
+            </a>
+        </nav>
+
+    </div>
+
+</body>
+</html>
